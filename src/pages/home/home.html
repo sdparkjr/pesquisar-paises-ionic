@@ -7,11 +7,15 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-searchbar [(ngModel)]="pesquisar" [formControl]="pesquisarControl">
+  <ion-searchbar [(ngModel)]="pesquisar" [formControl]="pesquisarControl" (ionInput)="onSearchInput()">
   </ion-searchbar>
+ 
+  <div *ngIf="spinnerSearch" class="spinner-container">      
+    <ion-spinner></ion-spinner>
+  </div>
 
   <ion-list>
-    <ion-item *ngFor="let c of listcountries"> 
+    <ion-item *ngFor="let c of listcountries">
       <ion-avatar item-left>
         <img src="{{c.flag}}">
       </ion-avatar>
