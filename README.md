@@ -1,40 +1,39 @@
-![ionic3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/1200px-Ionic_Logo.svg.png)
+![ionic3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/600px-Ionic_Logo.svg.png)
 
 # Pesquisar Paises Ionic
 
-### The simple example in Ionic3 ###
-#### How to use this example ####
+### Consumindo API REST com Ionic 3 e Angular 5 usando HttpClient
 
-you need:
+#### Para rodar esse exemplo ####
+
+você precisa:
 *    nodeJS,
 *   Ionic@3 or superior,
 
-### Install Ionic
+### Instale o Ionic
 
-Ionic comes with a convenient command line utility to start, build, and package Ionic apps.
 
-To install it, simply run:
 
 ```
 npm install -g ionic
 
 ```
 
-### install Cordova
+### Instale Cordova
 
-To install Cordova, make sure you have Node.js installed, then run
 
 ```
 npm install -g cordova
 
 ```
 
-### Create the project
+### Clone o Projeto
 
-Now, we need to create a new Cordova project somewhere on the computer for the code for our app:
 
 ```
-ionic start helloWorld blank
+$ Clone esta repositorio
+$ Run 'npm install'
+$ Run 'ionic serve --lab' 
 
 ```
 
@@ -46,11 +45,10 @@ $ ionic serve
 
 ```
 
-### How to run this example ###
+### API utilizada  ###
 
-* ionic serve - run in browser,
-* ionic cordova run android - run in your android or emulate,
-* ionic cordova run ios - run in your ios or Xcode emulate.
+* [restcountries](https://restcountries.eu/rest/v2/)
+
 
 
 
