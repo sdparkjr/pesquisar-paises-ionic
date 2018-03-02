@@ -28,10 +28,9 @@ npm install -g cordova
 ```
 
 ### Clone o Projeto
-
+- Clone o repositório
 
 ```
-$ Clone esta repositorio
 $ Run 'npm install'
 $ Run 'ionic serve --lab' 
 
