@@ -1,4 +1,4 @@
-![ionic3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/600px-Ionic_Logo.svg.png)
+![ionic3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ionic_Logo.svg/300px-Ionic_Logo.svg.png)
 
 # Pesquisar Paises Ionic
 
@@ -37,13 +37,6 @@ $ Run 'ionic serve --lab'
 
 ```
 
-To run your app, cd into the directory that was created and then run the ionic serve command to test your app right in the browser!
-
-```
-$ cd helloWorld
-$ ionic serve
-
-```
 
 ### API utilizada  ###
 
